@@ -1,0 +1,42 @@
+header {
+  display: flex;
+}
+.header-logo {
+  height: 65px;
+  width: 110px;
+}
+.nav {
+  height: 8srem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item {
+  margin: 0 3rem;
+}
+.table-orders {
+  margin: 2rem auto;
+}
+.sabores {
+  display: flex;
+}
+.sabores-count {
+  display: flex;
+}
+.sabores-count p {
+  margin: 1rem;
+}
+tr {
+  margin: 4rem;
+}
+.adornos {
+  display: flex;
+}
+.adornos-count {
+  margin: 1rem;
+}
+
+.footer-legal {
+  text-align: center;
+}

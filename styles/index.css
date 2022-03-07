@@ -1,0 +1,50 @@
+header {
+  display: flex;
+}
+.header-logo {
+  height: 65px;
+  width: 110px;
+}
+.nav {
+  height: 8srem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item {
+  margin: 0 3rem;
+}
+.sabores {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sabores h2 {
+  width: 100%;
+}
+.sabores-container {
+  display: flex;
+}
+.adorno-container {
+  display: flex;
+}
+.adorno-item {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.adorno-item img {
+  height: 100%;
+  width: 100%;
+}
+.adorno-number {
+  display: flex;
+}
+.adorno-number p {
+  margin: 5px;
+}
+
+.footer-legal {
+  text-align: center;
+}

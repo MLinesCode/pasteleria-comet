@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Pasteleria Comet"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#a15cbd">
+  <meta name="description" content="Disfruta de los momentos dulces">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/index.css">
+  <title>Pasteleria - Comet</title>
+</head>
+<body>
+  <header>
+    <img class="header-logo" src="./assets/comet.png" alt="logo-pasteleria">
+    <nav class="nav">
+      <ul class="nav-item">Home</ul>
+      <ul class="nav-item">Pasteles</ul>
+      <ul class="nav-item">Nosotros</ul>
+    </nav>
+  </header>
+  <article>
+    <section class="sabores">
+      <h2>Sabores</h2>
+      <div class="sabores-container">
+        <p>Queso</p>
+        <input type="checkbox">
+      </div>
+      <div class="sabores-container">
+        <p>Sarsamora</p>
+        <input type="checkbox">
+      </div>
+      <div class="sabores-container">
+        <p>Vainilla</p>
+        <input type="checkbox">
+      </div>
+      <div class="sabores-container">
+        <p>Chocolate</p>
+        <input type="checkbox">
+      </div>
+    </section>
+    <section>
+      <h2>Adornos</h2>
+      <div class="adorno-container">
+        <div>
+          <div class="adorno-item">
+            <img src="./assets/adorno1.webp" alt="">
+          </div>
+          <div class="adorno-number">
+            <p>Cantidad</p>
+            <p>2</p>
+          </div>
+        </div>
+        <div>
+          <div class="adorno-item">
+            <img src="./assets/adorno2.webp" alt="">
+          </div>
+          <div class="adorno-number">
+            <p>Cantidad</p>
+            <p>23</p>
+          </div>
+        </div>
+        <div>
+          <div class="adorno-item">
+            <img src="./assets/adorno3.webp" alt="">
+          </div>
+          <div class="adorno-number">
+            <p>Cantidad</p>
+            <p>8</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </article>
+  <article>
+    <form id="form" class="form" action="/" method="POST">
+      <div class="form-control">
+        <input type="hidden" name="_subject" value="Nuevo Contacto">
+        <label for="username">Nombre</label>
+        <input type="text" name="_subject" placeholder="John Doe" id="username" />
+      </div>
+      <div class="form-control">
+        <label for="username">Teléfono</label>
+        <input type="phone" name="telefono" placeholder="Teléfono" id="telefono" required/>
+      </div>
+      <div class="form-control">
+        <label for="username">Email</label>
+        <input type="email" name="email" placeholder="Email" id="email" required/>
+      </div>
+      <div class="form-control">
+        <label for="username">Adornos</label>
+        <input type="" name="email" placeholder="Adornos" id="adornos" required/>
+      </div>
+      <div class="form-control">
+        <label for="username">Sabores</label>
+        <input type="" name="email" placeholder="Sabores" id="sabores" required/>
+      </div>
+      <div class="form-control">
+        <label for="message">Descripción general del pastel</label>
+        <textarea for="" type="text" name="message" id="" cols="0" rows="2"></textarea>
+      </div>
+      <button type="submit" class="form-button"> Envíar </button>
+    </form>
+  </article>
+  <article>
+    <section>
+      <h3>Contacto</h3>
+      <div>
+        <p>Dirección</p>
+        <p>Calle Olmo #24, Colonia: Iztacalco, CDMX, México</p>
+      </div>
+      <div>
+        <p>Teléfono</p>
+        <p>78445897</p>
+      </div>
+      <div>
+        <p>Horarios</p>
+        <p>10:00 hrs - 21:00 hrs</p>
+      </div>
+    </section>
+  </article>
+  <footer>
+    <p class="footer-legal">2022 © Comet - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
